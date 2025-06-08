@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+thefuzz
+pycountry-convert
+scikit-learn
+scipy
+requests
