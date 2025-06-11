@@ -43,7 +43,7 @@ for ssp_id in range(1, 6):
         plot_results(results)
         plot_gdp_by_continent(sim.country_trajectories)
         export_gdp_combined_by_continent(sim.country_trajectories)
-        export_emissions_charts(sim.country_trajectories)
+        
 
         sim.export_country_data(f"outputs/country_trajectories_ssp{ssp_id}.csv")
         sim.export_global_summary(f"outputs/global_summary_ssp{ssp_id}.csv")
